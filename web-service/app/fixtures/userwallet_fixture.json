@@ -1,0 +1,112 @@
+[
+    {
+        "model": "app.userwallet",
+        "pk": 1,
+        "fields": {
+            "balance": 1000.00,
+            "locked_balance": 200.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 2,
+        "fields": {
+            "balance": 1500.00,
+            "locked_balance": 500.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 2
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 3,
+        "fields": {
+            "balance": 2000.00,
+            "locked_balance": 700.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 3
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 4,
+        "fields": {
+            "balance": 300.00,
+            "locked_balance": 100.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 4
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 5,
+        "fields": {
+            "balance": 500.00,
+            "locked_balance": 0.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 5
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 6,
+        "fields": {
+            "balance": 1200.00,
+            "locked_balance": 300.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 6
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 7,
+        "fields": {
+            "balance": 2200.00,
+            "locked_balance": 900.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 7
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 8,
+        "fields": {
+            "balance": 800.00,
+            "locked_balance": 400.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 8
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 9,
+        "fields": {
+            "balance": 600.00,
+            "locked_balance": 100.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 9
+        }
+    },
+    {
+        "model": "app.userwallet",
+        "pk": 10,
+        "fields": {
+            "balance": 1500.00,
+            "locked_balance": 200.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z",
+            "user_id": 10
+        }
+    }
+]

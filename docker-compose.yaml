@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: web-service
+      dockerfile: Dockerfile  
+    volumes:
+      - ./web-service:/app
+    ports:
+      - "${WEB_PORT}:8000"
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - .env
+      
+  worker:
+    build:
+      context: web-service
+      dockerfile: Dockerfile
+    command: python /app/manage.py queues_worker_command
+    volumes:
+      - ./web-service:/app
+    depends_on:
+      - redis
+    env_file:
+      - .env
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASS}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    ports:
+      - "${DB_PORT}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  redis:
+    image: redis/redis-stack-server:latest
+    restart: always
+    ports:
+      - "${REDIS_PORT}:6379"
+
+volumes:
+  mysql_data:

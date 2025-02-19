@@ -1,0 +1,122 @@
+[
+    {
+        "model": "app.exchanger",
+        "pk": 1,
+        "fields": {
+            "name": "Binance",
+            "api_url": "https://api.binance.com",
+            "fee_percentage": 0.1,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 2,
+        "fields": {
+            "name": "Coinbase",
+            "api_url": "https://api.coinbase.com",
+            "fee_percentage": 0.15,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 3,
+        "fields": {
+            "name": "Kraken",
+            "api_url": "https://api.kraken.com",
+            "fee_percentage": 0.2,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 4,
+        "fields": {
+            "name": "Gemini",
+            "api_url": "https://api.gemini.com",
+            "fee_percentage": 0.1,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 5,
+        "fields": {
+            "name": "Bitfinex",
+            "api_url": "https://api.bitfinex.com",
+            "fee_percentage": 0.25,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 6,
+        "fields": {
+            "name": "KuCoin",
+            "api_url": "https://api.kucoin.com",
+            "fee_percentage": 0.2,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 7,
+        "fields": {
+            "name": "Bittrex",
+            "api_url": "https://api.bittrex.com",
+            "fee_percentage": 0.1,
+            "is_active": false,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 8,
+        "fields": {
+            "name": "HitBTC",
+            "api_url": "https://api.hitbtc.com",
+            "fee_percentage": 0.3,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 9,
+        "fields": {
+            "name": "Poloniex",
+            "api_url": "https://api.poloniex.com",
+            "fee_percentage": 0.18,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.exchanger",
+        "pk": 10,
+        "fields": {
+            "name": "OKEx",
+            "api_url": "https://api.okex.com",
+            "fee_percentage": 0.15,
+            "is_active": true,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    }
+]

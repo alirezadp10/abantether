@@ -1,0 +1,1 @@
+* * * * * root /usr/local/bin/python /app/manage.py batch_maker_command >> /var/log/cron.log 2>&1

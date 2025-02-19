@@ -1,0 +1,112 @@
+[
+    {
+        "model": "app.cryptocurrency",
+        "pk": 1,
+        "fields": {
+            "symbol": "BTC",
+            "name": "Bitcoin",
+            "price": 45000.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 2,
+        "fields": {
+            "symbol": "ETH",
+            "name": "Ethereum",
+            "price": 3000.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 3,
+        "fields": {
+            "symbol": "XRP",
+            "name": "Ripple",
+            "price": 1.50,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 4,
+        "fields": {
+            "symbol": "LTC",
+            "name": "Litecoin",
+            "price": 150.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 5,
+        "fields": {
+            "symbol": "ADA",
+            "name": "Cardano",
+            "price": 1.20,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 6,
+        "fields": {
+            "symbol": "DOT",
+            "name": "Polkadot",
+            "price": 18.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 7,
+        "fields": {
+            "symbol": "BCH",
+            "name": "Bitcoin Cash",
+            "price": 600.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 8,
+        "fields": {
+            "symbol": "BNB",
+            "name": "Binance Coin",
+            "price": 350.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 9,
+        "fields": {
+            "symbol": "SOL",
+            "name": "Solana",
+            "price": 100.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "app.cryptocurrency",
+        "pk": 10,
+        "fields": {
+            "symbol": "MATIC",
+            "name": "Polygon",
+            "price": 2.00,
+            "created_at": "2025-02-20T12:00:00Z",
+            "updated_at": "2025-02-20T12:00:00Z"
+        }
+    }
+]
